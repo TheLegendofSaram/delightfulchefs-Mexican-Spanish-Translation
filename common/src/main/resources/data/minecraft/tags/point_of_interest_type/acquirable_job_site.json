@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+
+    "delightfulchefs:vendor_table",
+    "delightfulchefs:prep_table",
+    "delightfulchefs:pastry_table",
+    "delightfulchefs:sous_table",
+    "delightfulchefs:head_table",
+
+    "delightfulchefs:vendor_acacia",
+    "delightfulchefs:vendor_bamboo",
+    "delightfulchefs:vendor_birch",
+    "delightfulchefs:vendor_cherry",
+    "delightfulchefs:vendor_crimson",
+    "delightfulchefs:vendor_dark_oak",
+    "delightfulchefs:vendor_jungle",
+    "delightfulchefs:vendor_mangrove",
+    "delightfulchefs:vendor_oak",
+    "delightfulchefs:vendor_spruce",
+    "delightfulchefs:vendor_warped",
+
+    "delightfulchefs:prep_cook_poi",
+    "delightfulchefs:pastry_chef_poi",
+    "delightfulchefs:sous_chef_poi",
+    "delightfulchefs:head_chef_poi"
+  ]
+}

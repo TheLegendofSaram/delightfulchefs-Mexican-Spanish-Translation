@@ -1,0 +1,20 @@
+{
+  "profession": "delightfulchefs:vendor",
+  "trades": {
+    "novice": [
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "oxeye_daisy",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 2
+        },
+        "max_uses": 12,
+        "villager_experience": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "profession": "delightfulchefs:vendor",
+  "trades": {
+    "novice": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "glass_bottle",
+          "count": 25
+        },
+        "max_uses": 4,
+        "villager_experience": 8
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "glass_bottle",
+          "count": 25
+        },
+        "max_uses": 11,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "bowl",
+          "count": 21
+        },
+        "max_uses": 5,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "bowl",
+          "count": 14
+        },
+        "max_uses": 11,
+        "villager_experience": 7
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "farmersdelight:flint_knife",
+          "count": 1
+        },
+        "max_uses": 4,
+        "villager_experience": 8
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:flint_knife",
+          "count": 1
+        },
+        "max_uses": 10,
+        "villager_experience": 8
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 1
+        },
+        "reward": {
+          "item": "farmersdelight:rope",
+          "count": 8
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:rope",
+          "count": 32
+        },
+        "max_uses": 5,
+        "villager_experience": 7
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 1
+        },
+        "reward": {
+          "item": "farmersdelight:wheat_dough",
+          "count": 9
+        },
+        "max_uses": 9,
+        "villager_experience": 7
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 5
+        },
+        "reward": {
+          "item": "farmersdelight:straw_bale",
+          "count": 1
+        },
+        "max_uses": 5,
+        "villager_experience": 4
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 4
+        },
+        "priceIn": {
+          "item": "farmersdelight:straw_bale",
+          "count": 1
+        },
+        "max_uses": 5,
+        "villager_experience": 7
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 9
+        },
+        "reward": {
+          "item": "farmersdelight:beetroot_crate",
+          "count": 1
+        },
+        "max_uses": 8,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 8
+        },
+        "priceIn": {
+          "item": "farmersdelight:beetroot_crate",
+          "count": 1
+        },
+        "max_uses": 5,
+        "villager_experience": 3
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 9
+        },
+        "reward": {
+          "item": "farmersdelight:potato_crate",
+          "count": 1
+        },
+        "max_uses": 5,
+        "villager_experience": 8
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 8
+        },
+        "priceIn": {
+          "item": "farmersdelight:potato_crate",
+          "count": 1
+        },
+        "max_uses": 10,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "farmersdelight:iron_knife",
+          "count": 1
+        },
+        "max_uses": 6,
+        "villager_experience": 5
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 9
+        },
+        "reward": {
+          "item": "farmersdelight:carrot_crate",
+          "count": 1
+        },
+        "max_uses": 9,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 8
+        },
+        "priceIn": {
+          "item": "farmersdelight:carrot_crate",
+          "count": 1
+        },
+        "max_uses": 10,
+        "villager_experience": 6
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 10
+        },
+        "reward": {
+          "item": "farmersdelight:onion_crate",
+          "count": 1
+        },
+        "max_uses": 6,
+        "villager_experience": 6
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "farmersdelight:onion_crate",
+          "count": 1
+        },
+        "max_uses": 11,
+        "villager_experience": 5
+      }
+    ],
+    "expert": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 10
+        },
+        "reward": {
+          "item": "farmersdelight:cabbage_crate",
+          "count": 1
+        },
+        "max_uses": 9,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "farmersdelight:cabbage_crate",
+          "count": 1
+        },
+        "max_uses": 10,
+        "villager_experience": 2
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 10
+        },
+        "reward": {
+          "item": "farmersdelight:tomato_crate",
+          "count": 1
+        },
+        "max_uses": 6,
+        "villager_experience": 3
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "farmersdelight:tomato_crate",
+          "count": 1
+        },
+        "max_uses": 9,
+        "villager_experience": 4
+      }
+    ],
+    "master": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 10
+        },
+        "reward": {
+          "item": "farmersdelight:rice_bag",
+          "count": 1
+        },
+        "max_uses": 12,
+        "villager_experience": 2
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "farmersdelight:rice_bag",
+          "count": 1
+        },
+        "max_uses": 7,
+        "villager_experience": 8
+      }
+    ]
+  }
+}
