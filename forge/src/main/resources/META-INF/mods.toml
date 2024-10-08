@@ -8,7 +8,7 @@ version = "${version}"
 displayName = "Delightful Trades"
 authors = "average_anime"
 description = '''
-New villagers + new trades. For Farmer's Delight and Create.
+New villager professions, job sites, and trades for Farmer's Delight.
 '''
 logoFile = "../icon.png"
 
