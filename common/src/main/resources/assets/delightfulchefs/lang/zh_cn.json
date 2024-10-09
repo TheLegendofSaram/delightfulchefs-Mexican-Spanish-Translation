@@ -1,0 +1,15 @@
+{
+  "block.delightfulchefs.vendor_table_block": "小贩工作台",
+  "block.delightfulchefs.prep_table_block": "初级厨师工作台",
+  "block.delightfulchefs.pastry_table_block": "糕点师工作台",
+  "block.delightfulchefs.sous_table_block": "副厨工作台",
+  "block.delightfulchefs.head_table_block": "主厨工作台",
+
+  "entity.minecraft.villager.vendor": "小贩",
+  "entity.minecraft.villager.prep_cook": "初级厨师",
+  "entity.minecraft.villager.pastry_chef": "糕点师",
+  "entity.minecraft.villager.sous_chef": "副厨",
+  "entity.minecraft.villager.head_chef": "主厨",
+
+  "itemGroup.delightfulchefs.group": "§f\uE000"
+}
