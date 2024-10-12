@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "delightfulchefs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Delightful Chefs",
   "description": "New villager professions, job sites, and trades for Farmer's Delight.",
   "authors": [
     "average_anime"
   ],
   "contact": {
-    "homepage": "https://github.com/AverageAnime/delightfulchefs",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/delightful-chefs",
     "sources": "https://github.com/AverageAnime/delightfulchefs"
   },
 

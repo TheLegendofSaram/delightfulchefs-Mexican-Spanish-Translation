@@ -72,7 +72,7 @@ remapJar {
 
 jar {
 	archiveClassifier.set("dev")
-	setArchivesBaseName("delightful-trades-${fabric_mod_version}");
+	setArchivesBaseName("${archives_base_name}-${fabric_mod_version}");
 }
 
 sourcesJar {
