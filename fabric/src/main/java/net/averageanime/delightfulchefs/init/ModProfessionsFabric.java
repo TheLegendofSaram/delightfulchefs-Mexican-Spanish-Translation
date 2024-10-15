@@ -16,14 +16,19 @@ public class ModProfessionsFabric {
     public static void init() {
     }
 
+    public static Supplier<VillagerProfession> CUSTOMER;
     public static Supplier<VillagerProfession> VENDOR;
     public static Supplier<VillagerProfession> PREP_COOK;
     public static Supplier<VillagerProfession> PASTRY_CHEF;
     public static Supplier<VillagerProfession> SOUS_CHEF;
     public static Supplier<VillagerProfession> HEAD_CHEF;
 
+    public static final Predicate<RegistryEntry<PointOfInterestType>> CUSTOMER_PREDICATE = (registryEntry) -> registryEntry.value() ==
+            ModPOIFabric.CUSTOMER_TABLE_POI.get();
+
     public static final Predicate<RegistryEntry<PointOfInterestType>> VENDOR_PREDICATE = (registryEntry) -> registryEntry.value() ==
-            ModPOIFabric.VENDOR_BAMBOO_POI.get()
+            ModPOIFabric.VENDOR_TABLE_POI.get()
+            || registryEntry.value() == ModPOIFabric.VENDOR_ACACIA_POI.get()
             || registryEntry.value() == ModPOIFabric.VENDOR_BAMBOO_POI.get()
             || registryEntry.value() == ModPOIFabric.VENDOR_BIRCH_POI.get()
             || registryEntry.value() == ModPOIFabric.VENDOR_CHERRY_POI.get()
@@ -33,30 +38,30 @@ public class ModProfessionsFabric {
             || registryEntry.value() == ModPOIFabric.VENDOR_MANGROVE_POI.get()
             || registryEntry.value() == ModPOIFabric.VENDOR_OAK_POI.get()
             || registryEntry.value() == ModPOIFabric.VENDOR_SPRUCE_POI.get()
-            || registryEntry.value() == ModPOIFabric.VENDOR_WARPED_POI.get()
-            || registryEntry.value() == ModPOIFabric.VENDOR_TABLE_POI.get();
+            || registryEntry.value() == ModPOIFabric.VENDOR_WARPED_POI.get();
 
     public static final Predicate<RegistryEntry<PointOfInterestType>> PREP_COOK_PREDICATE = (registryEntry) -> registryEntry.value() ==
-            ModPOIFabric.PREP_COOK_POI.get()
-            || registryEntry.value() == ModPOIFabric.PREP_COOK_POI.get()
-            || registryEntry.value() == ModPOIFabric.PREP_TABLE_POI.get();
+            ModPOIFabric.PREP_TABLE_POI.get()
+            || registryEntry.value() == ModPOIFabric.PREP_COOK_POI.get();
 
     public static final Predicate<RegistryEntry<PointOfInterestType>> PASTRY_CHEF_PREDICATE = (registryEntry) -> registryEntry.value() ==
-            ModPOIFabric.PASTRY_CHEF_POI.get()
-            || registryEntry.value() == ModPOIFabric.PASTRY_CHEF_POI.get()
-            || registryEntry.value() == ModPOIFabric.PASTRY_TABLE_POI.get();
+            ModPOIFabric.PASTRY_TABLE_POI.get()
+            || registryEntry.value() == ModPOIFabric.PASTRY_CHEF_POI.get();
 
     public static final Predicate<RegistryEntry<PointOfInterestType>> SOUS_CHEF_PREDICATE = (registryEntry) -> registryEntry.value() ==
-            ModPOIFabric.SOUS_CHEF_POI.get()
-            || registryEntry.value() == ModPOIFabric.SOUS_CHEF_POI.get()
-            || registryEntry.value() == ModPOIFabric.SOUS_TABLE_POI.get();
+            ModPOIFabric.SOUS_TABLE_POI.get()
+            || registryEntry.value() == ModPOIFabric.SOUS_CHEF_POI.get();
 
     public static final Predicate<RegistryEntry<PointOfInterestType>> HEAD_CHEF_PREDICATE = (registryEntry) -> registryEntry.value() ==
-            ModPOIFabric.HEAD_CHEF_POI.get()
-            || registryEntry.value() == ModPOIFabric.HEAD_CHEF_POI.get()
-            || registryEntry.value() == ModPOIFabric.HEAD_TABLE_POI.get();
+            ModPOIFabric.HEAD_TABLE_POI.get()
+            || registryEntry.value() == ModPOIFabric.HEAD_CHEF_POI.get();
 
     static {
+
+        CUSTOMER = RegistryHelper.registerVillagerProfession("customer", () -> new VillagerProfession(
+                DelightfulChefs.createStringID("customer"), CUSTOMER_PREDICATE,
+                CUSTOMER_PREDICATE, ImmutableSet.of(), ImmutableSet.of(), SoundEvents.ENTITY_VILLAGER_WORK_FARMER
+        ));
 
         VENDOR = RegistryHelper.registerVillagerProfession("vendor", () -> new VillagerProfession(
                 DelightfulChefs.createStringID("vendor"), VENDOR_PREDICATE,

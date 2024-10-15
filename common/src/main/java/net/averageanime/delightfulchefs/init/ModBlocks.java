@@ -9,6 +9,8 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
+    public static final Supplier<Block> SERVING_TABLE_BLOCK = RegistryHelper.registerBlock("serving_table_block", () -> new ServingTableBlock(AbstractBlock.Settings.create().strength(0.5F).luminance((state) -> 1).nonOpaque()));
+
     public static final Supplier<Block> VENDOR_TABLE_BLOCK = RegistryHelper.registerBlock("vendor_table_block", () -> new VendorTableBlock(AbstractBlock.Settings.create().strength(0.5F).luminance((state) -> 1).nonOpaque()));
 
     public static final Supplier<Block> PREP_TABLE_BLOCK = RegistryHelper.registerBlock("prep_table_block", () -> new PrepTableBlock(AbstractBlock.Settings.create().strength(0.5F).luminance((state) -> 1).nonOpaque()));

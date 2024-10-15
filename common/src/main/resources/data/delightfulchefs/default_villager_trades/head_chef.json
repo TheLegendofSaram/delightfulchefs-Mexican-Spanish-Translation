@@ -12,21 +12,8 @@
           "item": "farmersdelight:baked_cod_stew",
           "count": 1
         },
-        "max_uses": 10,
-        "villager_experience": 7
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 2
-        },
-        "priceIn": {
-          "item": "farmersdelight:baked_cod_stew",
-          "count": 1
-        },
-        "max_uses": 11,
-        "villager_experience": 7
+        "max_uses": 3,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -38,8 +25,60 @@
           "item": "farmersdelight:beef_stew",
           "count": 1
         },
-        "max_uses": 7,
-        "villager_experience": 8
+        "max_uses": 3,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:wheat_dough",
+          "count": 10
+        },
+        "max_uses": 11,
+        "villager_experience": 7
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:cod_slice",
+          "count": 4
+        },
+        "max_uses": 6,
+        "villager_experience": 2
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:salmon_slice",
+          "count": 8
+        },
+        "max_uses": 6,
+        "villager_experience": 6
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:chicken_cuts",
+          "count": 8
+        },
+        "max_uses": 10,
+        "villager_experience": 2
       }
     ],
     "apprentice": [
@@ -53,8 +92,21 @@
           "item": "farmersdelight:fish_stew",
           "count": 1
         },
-        "max_uses": 5,
-        "villager_experience": 7
+        "max_uses": 2,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "farmersdelight:pasta_with_mutton_chop",
+          "count": 1
+        },
+        "max_uses": 2,
+        "villager_experience": 4
       },
       {
         "type": "delightfulchefs:sell_item",
@@ -63,10 +115,23 @@
           "count": 1
         },
         "priceIn": {
-          "item": "farmersdelight:fish_stew",
+          "item": "farmersdelight:fried_egg",
+          "count": 4
+        },
+        "max_uses": 10,
+        "villager_experience": 6
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
           "count": 1
         },
-        "max_uses": 9,
+        "priceIn": {
+          "item": "farmersdelight:raw_pasta",
+          "count": 10
+        },
+        "max_uses": 5,
         "villager_experience": 4
       },
       {
@@ -76,26 +141,26 @@
           "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:pasta_with_mutton_chops",
-          "count": 1
+          "item": "farmersdelight:bacon",
+          "count": 16
         },
         "max_uses": 9,
-        "villager_experience": 6
+        "villager_experience": 3
       }
     ],
     "journeyman": [
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "farmersdelight:barbecue_stick",
           "count": 1
         },
-        "priceIn": {
-          "item": "farmersdelight:barbeque_stick",
-          "count": 1
-        },
-        "max_uses": 10,
-        "villager_experience": 4
+        "max_uses": 7,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -104,24 +169,24 @@
           "count": 5
         },
         "reward": {
-          "item": "farmersdelight:honey_glazed_ham",
+          "item": "farmersdelight:honey_glazed_ham_block",
           "count": 1
         },
-        "max_uses": 5,
-        "villager_experience": 8
+        "max_uses": 6,
+        "villager_experience": 4
       },
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
-          "count": 7
+          "count": 8
         },
-        "priceIn": {
+        "reward": {
           "item": "farmersdelight:dumplings",
-          "count": 1
+          "count": 2
         },
-        "max_uses": 5,
-        "villager_experience": 2
+        "max_uses": 3,
+        "villager_experience": 3
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -133,21 +198,21 @@
           "item": "farmersdelight:chicken_sandwich",
           "count": 1
         },
-        "max_uses": 8,
-        "villager_experience": 5
+        "max_uses": 2,
+        "villager_experience": 2
       },
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
           "count": 1
         },
-        "priceIn": {
-          "item": "farmersdelight:chicken_sandwich",
-          "count": 1
+        "reward": {
+          "item": "farmersdelight:nether_salad",
+          "count": 2
         },
-        "max_uses": 11,
-        "villager_experience": 2
+        "max_uses": 5,
+        "villager_experience": 5
       },
       {
         "type": "delightfulchefs:sell_item",
@@ -156,11 +221,24 @@
           "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:nether_salad",
-          "count": 8
+          "item": "farmersdelight:minced_beef",
+          "count": 20
         },
-        "max_uses": 8,
-        "villager_experience": 5
+        "max_uses": 10,
+        "villager_experience": 6
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:ham",
+          "count": 4
+        },
+        "max_uses": 5,
+        "villager_experience": 8
       }
     ],
     "expert": [
@@ -174,34 +252,21 @@
           "item": "farmersdelight:ratatouille",
           "count": 1
         },
-        "max_uses": 4,
-        "villager_experience": 8
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 3
-        },
-        "priceIn": {
-          "item": "farmersdelight:ratatouille",
-          "count": 1
-        },
-        "max_uses": 12,
+        "max_uses": 3,
         "villager_experience": 3
       },
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "farmersdelight:fried_rice",
           "count": 2
         },
-        "priceIn": {
-          "item": "farmersdelight:fried_rice",
-          "count": 1
-        },
         "max_uses": 8,
-        "villager_experience": 6
+        "villager_experience": 5
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -213,21 +278,21 @@
           "item": "farmersdelight:rice_roll_medley_block",
           "count": 1
         },
-        "max_uses": 12,
+        "max_uses": 4,
         "villager_experience": 4
       },
       {
         "type": "delightfulchefs:sell_item",
         "sell": {
           "item": "emerald",
-          "count": 5
+          "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:rice_roll_medley_block",
-          "count": 1
+          "item": "farmersdelight:mutton_chops",
+          "count": 16
         },
-        "max_uses": 6,
-        "villager_experience": 5
+        "max_uses": 4,
+        "villager_experience": 6
       }
     ],
     "master": [
@@ -241,21 +306,8 @@
           "item": "farmersdelight:roast_chicken_block",
           "count": 1
         },
-        "max_uses": 5,
+        "max_uses": 8,
         "villager_experience": 3
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 4
-        },
-        "priceIn": {
-          "item": "farmersdelight:roast_chicken_block",
-          "count": 1
-        },
-        "max_uses": 4,
-        "villager_experience": 7
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -267,21 +319,8 @@
           "item": "farmersdelight:shepherds_pie_block",
           "count": 1
         },
-        "max_uses": 6,
+        "max_uses": 4,
         "villager_experience": 4
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 5
-        },
-        "priceIn": {
-          "item": "farmersdelight:shepherds_pie_block",
-          "count": 1
-        },
-        "max_uses": 12,
-        "villager_experience": 3
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -293,21 +332,8 @@
           "item": "farmersdelight:stuffed_pumpkin_block",
           "count": 1
         },
-        "max_uses": 4,
-        "villager_experience": 7
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 3
-        },
-        "priceIn": {
-          "item": "farmersdelight:stuffed_pumpkin_block",
-          "count": 1
-        },
-        "max_uses": 11,
-        "villager_experience": 4
+        "max_uses": 2,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -319,21 +345,8 @@
           "item": "farmersdelight:netherite_knife",
           "count": 1
         },
-        "max_uses": 11,
-        "villager_experience": 2
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 8
-        },
-        "priceIn": {
-          "item": "farmersdelight:netherite_knife",
-          "count": 1
-        },
-        "max_uses": 7,
-        "villager_experience": 8
+        "max_uses": 3,
+        "villager_experience": 3
       }
     ]
   }

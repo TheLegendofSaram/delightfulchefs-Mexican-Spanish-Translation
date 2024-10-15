@@ -8,6 +8,8 @@ import java.util.function.Supplier;
 
 public class ModItems {
 
+    public static final Supplier<Item> SERVING_TABLE_BLOCK = RegistryHelper.registerItem("serving_table_block", () -> new BlockItem(ModBlocks.SERVING_TABLE_BLOCK.get(), new Item.Settings()));
+
     public static final Supplier<Item> VENDOR_TABLE_BLOCK = RegistryHelper.registerItem("vendor_table_block", () -> new BlockItem(ModBlocks.VENDOR_TABLE_BLOCK.get(), new Item.Settings()));
 
     public static final Supplier<Item> PREP_TABLE_BLOCK = RegistryHelper.registerItem("prep_table_block", () -> new BlockItem(ModBlocks.PREP_TABLE_BLOCK.get(), new Item.Settings()));
@@ -23,6 +25,7 @@ public class ModItems {
 
     public static void addItemsToGroup() {
 
+        RegistryHelper.addToItemGroup(ModItemGroups.ITEM_GROUP, SERVING_TABLE_BLOCK.get());
         RegistryHelper.addToItemGroup(ModItemGroups.ITEM_GROUP, VENDOR_TABLE_BLOCK.get());
         RegistryHelper.addToItemGroup(ModItemGroups.ITEM_GROUP, PREP_TABLE_BLOCK.get());
         RegistryHelper.addToItemGroup(ModItemGroups.ITEM_GROUP, PASTRY_TABLE_BLOCK.get());

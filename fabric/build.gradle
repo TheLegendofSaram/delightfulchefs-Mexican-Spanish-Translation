@@ -36,15 +36,6 @@ dependencies {
 		exclude(group: "net.fabricmc")
 	}
 
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:base:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:accessors:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:networking:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:tags:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:config:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:tool_actions:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:loot:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:lazy_registration:2.3.4+1.20.1")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:recipe_book_categories:2.3.4+1.20.1")
 
 
 }

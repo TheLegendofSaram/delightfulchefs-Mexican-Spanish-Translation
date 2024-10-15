@@ -34,7 +34,6 @@ dependencies {
 	common(project(path: ":common", configuration: "namedElements")) { transitive false }
 	shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
-	implementation "curse.maven:farmers-delight-398521:5051242"
 
 }
 
@@ -61,7 +60,7 @@ remapJar {
 
 jar {
 	archiveClassifier.set("dev")
-	setArchivesBaseName("delightfulchefs-FORGE");
+	setArchivesBaseName("${archives_base_name}-${forge_mod_version}");
 }
 
 sourcesJar {
