@@ -3,6 +3,19 @@
   "trades": {
     "novice": [
       {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "sugar",
+          "count": 64
+        },
+        "max_uses": 9,
+        "villager_experience": 5
+      },
+      {
         "type": "delightfulchefs:buy_item",
         "buy": {
           "item": "emerald",
@@ -12,21 +25,8 @@
           "item": "farmersdelight:apple_pie",
           "count": 1
         },
-        "max_uses": 10,
-        "villager_experience": 4
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 14
-        },
-        "priceIn": {
-          "item": "farmersdelight:apple_pie",
-          "count": 11
-        },
-        "max_uses": 11,
-        "villager_experience": 7
+        "max_uses": 8,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -38,8 +38,21 @@
           "item": "farmersdelight:sweet_berry_cookie",
           "count": 9
         },
-        "max_uses": 7,
-        "villager_experience": 8
+        "max_uses": 3,
+        "villager_experience": 2
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "cookie",
+          "count": 18
+        },
+        "max_uses": 4,
+        "villager_experience": 5
       },
       {
         "type": "delightfulchefs:sell_item",
@@ -48,11 +61,11 @@
           "count": 1
         },
         "priceIn": {
-          "item": "cookie",
-          "count": 8
+          "item": "apple",
+          "count": 16
         },
-        "max_uses": 9,
-        "villager_experience": 3
+        "max_uses": 11,
+        "villager_experience": 7
       }
     ],
     "apprentice": [
@@ -60,27 +73,27 @@
         "type": "delightfulchefs:buy_item",
         "buy": {
           "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "pumpkin_pie",
+          "count": 1
+        },
+        "max_uses": 4,
+        "villager_experience": 5
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
           "count": 7
         },
         "reward": {
           "item": "farmersdelight:chocolate_pie",
           "count": 2
         },
-        "max_uses": 5,
-        "villager_experience": 6
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 21
-        },
-        "priceIn": {
-          "item": "farmersdelight:chocolate_pie",
-          "count": 8
-        },
-        "max_uses": 7,
-        "villager_experience": 7
+        "max_uses": 6,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -92,21 +105,8 @@
           "item": "farmersdelight:sweet_berry_cheesecake",
           "count": 7
         },
-        "max_uses": 12,
-        "villager_experience": 4
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 3
-        },
-        "priceIn": {
-          "item": "farmersdelight:sweet_berry_cheesecake",
-          "count": 14
-        },
-        "max_uses": 4,
-        "villager_experience": 8
+        "max_uses": 3,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -118,8 +118,21 @@
           "item": "farmersdelight:honey_cookie",
           "count": 16
         },
+        "max_uses": 6,
+        "villager_experience": 3
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "sweet_berries",
+          "count": 40
+        },
         "max_uses": 5,
-        "villager_experience": 5
+        "villager_experience": 7
       }
     ],
     "journeyman": [
@@ -133,8 +146,21 @@
           "item": "farmersdelight:glow_berry_custard",
           "count": 1
         },
-        "max_uses": 10,
-        "villager_experience": 7
+        "max_uses": 6,
+        "villager_experience": 4
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "cake",
+          "count": 1
+        },
+        "max_uses": 2,
+        "villager_experience": 5
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -146,8 +172,8 @@
           "item": "farmersdelight:gold_knife",
           "count": 1
         },
-        "max_uses": 10,
-        "villager_experience": 2
+        "max_uses": 6,
+        "villager_experience": 5
       },
       {
         "type": "delightfulchefs:sell_item",
@@ -156,14 +182,55 @@
           "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:gold_knife",
-          "count": 1
+          "item": "glow_berries",
+          "count": 32
         },
-        "max_uses": 10,
+        "max_uses": 12,
         "villager_experience": 8
       }
     ],
-    "expert": [],
-    "master": []
+    "expert": [
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "melon",
+          "count": 16
+        },
+        "max_uses": 5,
+        "villager_experience": 3
+      }
+    ],
+    "master": [
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "pumpkin",
+          "count": 8
+        },
+        "max_uses": 8,
+        "villager_experience": 7
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "chorus_fruit",
+          "count": 20
+        },
+        "max_uses": 9,
+        "villager_experience": 7
+      }
+    ]
   }
 }

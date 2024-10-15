@@ -5,7 +5,7 @@ license = "CC0-1.0"
 [[mods]]
 modId = "delightfulchefs"
 version = "${version}"
-displayName = "Delightful Trades"
+displayName = "Delightful Chefs"
 authors = "average_anime"
 description = '''
 New villager professions, job sites, and trades for Farmer's Delight.

@@ -44,8 +44,8 @@ Delightful Chefs adds villager professions, job sites, and trades for [Farmer's 
 
 ### **My Other Mods**
 
-* [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food-fabric)
-* [Create: Metalwork](https://www.curseforge.com/minecraft/mc-mods/create-metalwork-fabric)
+* [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food)
+* [Create: Metalwork](https://www.curseforge.com/minecraft/mc-mods/create-metalwork)
 * [Rune Essence](https://www.curseforge.com/minecraft/mc-mods/rune-essence)
 * [Stack Size Edit](https://www.curseforge.com/minecraft/mc-mods/stack-size-edit-fabric)
 

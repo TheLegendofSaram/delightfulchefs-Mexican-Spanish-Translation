@@ -9,23 +9,23 @@
           "count": 1
         },
         "reward": {
-          "item": "farmersdelight:chicken_cuts",
-          "count": 6
+          "item": "farmersdelight:wheat_dough",
+          "count": 9
         },
-        "max_uses": 11,
-        "villager_experience": 6
+        "max_uses": 7,
+        "villager_experience": 2
       },
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
           "count": 1
         },
-        "priceIn": {
+        "reward": {
           "item": "farmersdelight:chicken_cuts",
-          "count": 8
+          "count": 6
         },
-        "max_uses": 5,
+        "max_uses": 2,
         "villager_experience": 5
       },
       {
@@ -38,47 +38,21 @@
           "item": "farmersdelight:minced_beef",
           "count": 5
         },
-        "max_uses": 12,
-        "villager_experience": 8
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 3
-        },
-        "priceIn": {
-          "item": "farmersdelight:minced_beef",
-          "count": 20
-        },
-        "max_uses": 10,
-        "villager_experience": 5
+        "max_uses": 6,
+        "villager_experience": 4
       },
       {
         "type": "delightfulchefs:buy_item",
         "buy": {
           "item": "emerald",
-          "count": 1
+          "count": 2
         },
         "reward": {
-          "item": "farmersdelight:raw_pasta",
-          "count": 9
-        },
-        "max_uses": 12,
-        "villager_experience": 8
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 1
-        },
-        "priceIn": {
           "item": "farmersdelight:fruit_salad",
           "count": 1
         },
-        "max_uses": 10,
-        "villager_experience": 3
+        "max_uses": 6,
+        "villager_experience": 4
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -90,8 +64,21 @@
           "item": "farmersdelight:fried_egg",
           "count": 3
         },
-        "max_uses": 6,
-        "villager_experience": 4
+        "max_uses": 5,
+        "villager_experience": 3
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "chicken",
+          "count": 56
+        },
+        "max_uses": 8,
+        "villager_experience": 5
       }
     ],
     "apprentice": [
@@ -102,24 +89,24 @@
           "count": 1
         },
         "reward": {
-          "item": "farmersdelight:cod_slice",
-          "count": 3
+          "item": "farmersdelight:raw_pasta",
+          "count": 9
         },
-        "max_uses": 11,
-        "villager_experience": 5
+        "max_uses": 2,
+        "villager_experience": 3
       },
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
           "count": 1
         },
-        "priceIn": {
+        "reward": {
           "item": "farmersdelight:cod_slice",
-          "count": 4
+          "count": 3
         },
-        "max_uses": 11,
-        "villager_experience": 3
+        "max_uses": 5,
+        "villager_experience": 5
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -132,19 +119,6 @@
           "count": 1
         },
         "max_uses": 5,
-        "villager_experience": 4
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 2
-        },
-        "priceIn": {
-          "item": "farmersdelight:iron_knife",
-          "count": 1
-        },
-        "max_uses": 11,
         "villager_experience": 3
       },
       {
@@ -157,8 +131,8 @@
           "item": "farmersdelight:salmon_slice",
           "count": 2
         },
-        "max_uses": 9,
-        "villager_experience": 6
+        "max_uses": 8,
+        "villager_experience": 3
       },
       {
         "type": "delightfulchefs:sell_item",
@@ -167,26 +141,39 @@
           "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:salmon_slice",
-          "count": 8
+          "item": "porkchop",
+          "count": 28
+        },
+        "max_uses": 11,
+        "villager_experience": 2
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "cod",
+          "count": 20
         },
         "max_uses": 7,
-        "villager_experience": 3
+        "villager_experience": 8
       }
     ],
     "journeyman": [
       {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
           "item": "emerald",
-          "count": 9
+          "count": 3
         },
-        "priceIn": {
+        "reward": {
           "item": "farmersdelight:cabbage_rolls",
-          "count": 16
+          "count": 4
         },
-        "max_uses": 5,
-        "villager_experience": 6
+        "max_uses": 8,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -198,21 +185,8 @@
           "item": "farmersdelight:mutton_chops",
           "count": 4
         },
-        "max_uses": 12,
-        "villager_experience": 5
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 3
-        },
-        "priceIn": {
-          "item": "farmersdelight:mutton_chops",
-          "count": 16
-        },
-        "max_uses": 8,
-        "villager_experience": 8
+        "max_uses": 5,
+        "villager_experience": 2
       },
       {
         "type": "delightfulchefs:buy_item",
@@ -224,20 +198,7 @@
           "item": "farmersdelight:pumpkin_slice",
           "count": 12
         },
-        "max_uses": 8,
-        "villager_experience": 3
-      },
-      {
-        "type": "delightfulchefs:sell_item",
-        "sell": {
-          "item": "emerald",
-          "count": 1
-        },
-        "priceIn": {
-          "item": "farmersdelight:pumpkin_slice",
-          "count": 16
-        },
-        "max_uses": 12,
+        "max_uses": 3,
         "villager_experience": 4
       },
       {
@@ -250,11 +211,22 @@
           "item": "farmersdelight:mutton_wrap",
           "count": 3
         },
-        "max_uses": 12,
+        "max_uses": 6,
         "villager_experience": 4
-      }
-    ],
-    "expert": [
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "rabbit",
+          "count": 8
+        },
+        "max_uses": 7,
+        "villager_experience": 4
+      },
       {
         "type": "delightfulchefs:sell_item",
         "sell": {
@@ -262,10 +234,25 @@
           "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:kelp_roll",
-          "count": 4
+          "item": "salmon",
+          "count": 52
         },
-        "max_uses": 9,
+        "max_uses": 7,
+        "villager_experience": 4
+      }
+    ],
+    "expert": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "farmersdelight:kelp_roll",
+          "count": 2
+        },
+        "max_uses": 2,
         "villager_experience": 4
       },
       {
@@ -278,7 +265,7 @@
           "item": "farmersdelight:ham",
           "count": 1
         },
-        "max_uses": 6,
+        "max_uses": 4,
         "villager_experience": 3
       },
       {
@@ -291,23 +278,21 @@
           "item": "farmersdelight:bacon",
           "count": 4
         },
-        "max_uses": 11,
-        "villager_experience": 2
-      }
-    ],
-    "master": [
+        "max_uses": 5,
+        "villager_experience": 3
+      },
       {
         "type": "delightfulchefs:sell_item",
         "sell": {
           "item": "emerald",
-          "count": 1
+          "count": 3
         },
         "priceIn": {
-          "item": "farmersdelight:cod_roll",
-          "count": 1
+          "item": "mutton",
+          "count": 28
         },
-        "max_uses": 8,
-        "villager_experience": 2
+        "max_uses": 10,
+        "villager_experience": 4
       },
       {
         "type": "delightfulchefs:sell_item",
@@ -316,11 +301,65 @@
           "count": 1
         },
         "priceIn": {
-          "item": "farmersdelight:salmon_roll",
-          "count": 1
+          "item": "tropical_fish",
+          "count": 8
         },
         "max_uses": 11,
+        "villager_experience": 2
+      }
+    ],
+    "master": [
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "farmersdelight:cod_roll",
+          "count": 1
+        },
+        "max_uses": 4,
         "villager_experience": 4
+      },
+      {
+        "type": "delightfulchefs:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "farmersdelight:salmon_roll",
+          "count": 2
+        },
+        "max_uses": 3,
+        "villager_experience": 3
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "beef",
+          "count": 40
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      },
+      {
+        "type": "delightfulchefs:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "pufferfish",
+          "count": 16
+        },
+        "max_uses": 7,
+        "villager_experience": 2
       }
     ]
   }
