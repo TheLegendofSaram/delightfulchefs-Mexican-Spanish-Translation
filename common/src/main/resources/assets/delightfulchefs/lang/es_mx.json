@@ -1,0 +1,17 @@
+{
+  "block.delightfulchefs.serving_table_block": "Mesa de Servicio",
+  "block.delightfulchefs.vendor_table_block": "Mesa de Trabajo del Vendedor",
+  "block.delightfulchefs.prep_table_block": "Mesa de Trabajo del Cocinero de Preparación",
+  "block.delightfulchefs.pastry_table_block": "Mesa de Trabajo del Pastelero",
+  "block.delightfulchefs.sous_table_block": "Mesa de Trabajo del Sous Chef",
+  "block.delightfulchefs.head_table_block": "Mesa de Trabajo del Chef Principal",
+
+  "entity.minecraft.villager.customer": "Cliente",
+  "entity.minecraft.villager.vendor": "Vendedor",
+  "entity.minecraft.villager.prep_cook": "Cocinero de Preparación",
+  "entity.minecraft.villager.pastry_chef": "Pastelero",
+  "entity.minecraft.villager.sous_chef": "Sous Chef",
+  "entity.minecraft.villager.head_chef": "Chef Principal",
+
+  "itemGroup.delightfulchefs.group": "§f\uE000"
+}
